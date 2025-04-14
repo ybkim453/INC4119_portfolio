@@ -11,12 +11,12 @@ import Footer from "./layout/Footer";
 const App = () => {
   // 로그인 상태를 관리하는 state
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [currentPage, setCurrentPage] = useState('home');
+  const [currentPage, setCurrentPage] = useState("home");
 
   // 로그인 처리 함수
   const handleLogin = (username, password) => {
     // 실제로는 서버와 통신해야 하지만, 데모용으로 간단히 구현
-    if (username === 'admin' && password === '1234') {
+    if (username === "admin" && password === "1234") {
       setIsLoggedIn(true);
       return true;
     }
@@ -26,13 +26,13 @@ const App = () => {
   // 페이지 렌더링 함수
   const renderPage = () => {
     switch (currentPage) {
-      case 'home':
+      case "home":
         return <HomePage />;
-      case 'about':
+      case "about":
         return <AboutPage />;
-      case 'projects':
+      case "projects":
         return <ProjectsPage />;
-      case 'contact':
+      case "contact":
         return <ContactPage />;
       default:
         return <HomePage />;
@@ -43,11 +43,7 @@ const App = () => {
     <div className="app">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <main className="main-content">
-        {!isLoggedIn ? (
-          <LoginPage onLogin={handleLogin} />
-        ) : (
-          renderPage()
-        )}
+        {!isLoggedIn ? <LoginPage onLogin={handleLogin} /> : renderPage()}
       </main>
       <Footer />
     </div>
