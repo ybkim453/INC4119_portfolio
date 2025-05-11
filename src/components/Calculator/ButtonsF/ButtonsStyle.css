@@ -1,0 +1,29 @@
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.ac {
+  grid-column: 1 / -1;
+  background-color: #e80e0e;
+  color: white;
+}
+
+.function {
+  background-color: #2196F3;
+  color: white;
+} 

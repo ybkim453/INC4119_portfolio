@@ -1,0 +1,20 @@
+.display {
+  background-color: #000;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.expression {
+  color: #888;
+  font-size: 1.2em;
+  min-height: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.result {
+  color: rgb(92, 227, 173);
+  font-size: 1.8em;
+  text-align: right;
+} 

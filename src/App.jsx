@@ -5,8 +5,10 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
+import ResumePage from "./pages/ResumePage";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
+
 
 const App = () => {
   // 로그인 상태를 관리하는 state
@@ -32,6 +34,8 @@ const App = () => {
         return <AboutPage />;
       case "projects":
         return <ProjectsPage />;
+      case "resume":
+        return <ResumePage />;
       case "contact":
         return <ContactPage />;
       default:

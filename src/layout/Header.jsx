@@ -8,6 +8,7 @@ const Header = ({ currentPage, setCurrentPage }) => {
         <button onClick={() => setCurrentPage("home")}>홈</button>
         <button onClick={() => setCurrentPage("about")}>소개</button>
         <button onClick={() => setCurrentPage("projects")}>프로젝트</button>
+        <button onClick={() => setCurrentPage("resume")}>이력서</button>
         <button onClick={() => setCurrentPage("contact")}>연락처</button>
       </nav>
     </header>
