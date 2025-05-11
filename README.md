@@ -1,7 +1,6 @@
 # IN4119_portfolio
 Made for Software Engineering Homework
 
----
 
 ## 프로젝트 구조 및 주요 파일 설명
 
@@ -26,7 +25,6 @@ INC4119_portfolio/
 - **App.jsx** : 전체 앱의 구조와 페이지 라우팅 로직을 담당
 - **App.css** : 전체적인 스타일과 각 컴포넌트/페이지의 CSS 포함
 
----
 
 ## 페이지 구성
 - **HomePage** : 사이트 소개 및 주요 메뉴 안내
