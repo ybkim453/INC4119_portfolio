@@ -1,6 +1,6 @@
 # IN4119_portfolio
 Made for Software Engineering Homework
-
+<br>
 
 ## 프로젝트 구조 및 주요 파일 설명
 
@@ -16,8 +16,9 @@ INC4119_portfolio/
 ├── public/           
 └── README.md          
 ```
+<br>
 
-### 각 폴더/파일 역할
+## 각 폴더/파일 역할
 - **src/components/** : 여러 페이지에서 재사용되는 작은 단위의 UI 컴포넌트들이 위치
 - **src/pages/** : 홈페이지의 각 주요 메뉴(홈, 소개, 프로젝트, 이력서, 연락처 등)에 해당하는 페이지 컴포넌트가 위치
 - **src/assets/** : 이미지, PDF 등 정적 리소스 파일을 보관
@@ -25,6 +26,7 @@ INC4119_portfolio/
 - **App.jsx** : 전체 앱의 구조와 페이지 라우팅 로직을 담당
 - **App.css** : 전체적인 스타일과 각 컴포넌트/페이지의 CSS 포함
 
+<br>
 
 ## 페이지 구성
 - **HomePage** : 사이트 소개 및 주요 메뉴 안내
